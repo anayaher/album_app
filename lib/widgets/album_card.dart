@@ -1,7 +1,7 @@
 import 'package:app/models/album.dart';
 
 import 'package:flutter/material.dart';
-import 'package:skeletons/skeletons.dart';
+
 
 class AlbumCard extends StatelessWidget {
   final ThemeData themeData;
@@ -46,23 +46,12 @@ class AlbumCard extends StatelessWidget {
                         int? frame, bool wasSynchronouslyLoaded) {
                       if (wasSynchronouslyLoaded) return child;
                       if (frame == null) {
-                        return Center(
-                          child: Skeleton(
-                            isLoading: true,
-                            skeleton: SkeletonParagraph(
-                              style: SkeletonParagraphStyle(
-                                lines: 1,
-                                spacing: 6,
-                                lineStyle: SkeletonLineStyle(
-                                  height: 150,
-                                  borderRadius: BorderRadius.circular(8),
-                                ),
-                              ),
-                            ),
-                            child: const SizedBox.shrink(),
-                          ),
-                        );
+                        return const Center(
+                            child: SizedBox(
+                          height: 150,
+                        ));
                       }
+                      
                       return child;
                     },
                   ),
