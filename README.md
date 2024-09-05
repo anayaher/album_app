@@ -1,16 +1,46 @@
-# app
+# Flutter Album App
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Album list Screen
+<img src="https://github.com/anayaher/album_app/blob/master/screenshots/homess.png" alt="Home Page (Dark Mode)" width="300"/>
+<img src="https://github.com/anayaher/album_app/blob/master/screenshots/homess2.png" alt="Home Page (Light Mode)" width="300"/>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Details Page
+<img src="https://github.com/anayaher/album_app/blob/master/screenshots/albumdetailss.png" alt="Category-Wise Page (Dark Mode)" width="300"/>
+
+### Add New Album 
+<img src="https://github.com/anayaher/album_app/blob/master/screenshots/newalbumss.png" alt="Article Page (Dark Mode)" width="300"/>
+
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/anayaher/flutter_news_app.git
+```
+2. Navigate to the project directory::
+
+```bash
+   cd flutter_news_app
+```
+3. Install dependencies :
+
+```bash
+  flutter pub get
+```
+3.  Run app:
+```bash
+    flutter run
+```
+
+
+### Contact
+Anay Aher - aheranay@gmail.com
+   
+
+
